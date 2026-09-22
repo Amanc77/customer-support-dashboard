@@ -1,0 +1,163 @@
+[
+  {
+    "id": "TCK-1042",
+    "customerName": "Riya Sharma",
+    "email": "riya.sharma@gmail.com",
+    "plan": "Business",
+    "location": "Bengaluru, India",
+    "subject": "Invoice download is failing",
+    "description": "The customer cannot download the September invoice from the billing page. The download button shows a failed request after a few seconds.",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-09-22T14:15:00",
+    "conversation": [
+      {
+        "id": "m-1042-1",
+        "sender": "Riya Sharma",
+        "role": "customer",
+        "createdAt": "2026-09-22T14:15:00",
+        "message": "I need the invoice today for finance closing, but the download keeps failing."
+      },
+      {
+        "id": "m-1042-2",
+        "sender": "Support",
+        "role": "support",
+        "createdAt": "2026-09-22T14:35:00",
+        "message": "We are checking the billing export and will share a verified copy shortly."
+      }
+    ]
+  },
+  {
+    "id": "TCK-1041",
+    "customerName": "Aman Verma",
+    "email": "aman.verma@gmail.com",
+    "plan": "Growth",
+    "location": "Pune, India",
+    "subject": "Password reset email not received",
+    "description": "The customer requested a password reset twice but has not received any email. Spam and promotions folders were already checked.",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2026-09-21T19:50:00",
+    "conversation": [
+      {
+        "id": "m-1041-1",
+        "sender": "Aman Verma",
+        "role": "customer",
+        "createdAt": "2026-09-21T19:50:00",
+        "message": "I still cannot log in. The reset email never arrived even after waiting 20 minutes."
+      },
+      {
+        "id": "m-1041-2",
+        "sender": "Support",
+        "role": "support",
+        "createdAt": "2026-09-21T20:12:00",
+        "message": "We triggered a fresh reset from the admin console and are verifying delivery with the mail provider."
+      }
+    ]
+  },
+  {
+    "id": "TCK-1040",
+    "customerName": "Meera Iyer",
+    "email": "meera.iyer@gmail.com",
+    "plan": "Business",
+    "location": "Chennai, India",
+    "subject": "Team member cannot be invited",
+    "description": "Inviting a new teammate fails with a generic error after the invite form is submitted. The email address is valid and unused.",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-09-20T16:40:00",
+    "conversation": [
+      {
+        "id": "m-1040-1",
+        "sender": "Meera Iyer",
+        "role": "customer",
+        "createdAt": "2026-09-20T16:40:00",
+        "message": "Our new analyst needs access today. The invite button keeps failing."
+      },
+      {
+        "id": "m-1040-2",
+        "sender": "Support",
+        "role": "support",
+        "createdAt": "2026-09-20T17:05:00",
+        "message": "We found a seat-limit check blocking the invite and are applying a workspace override."
+      }
+    ]
+  },
+  {
+    "id": "TCK-1039",
+    "customerName": "Kabir Khan",
+    "email": "kabir.khan@gmail.com",
+    "plan": "Starter",
+    "location": "Delhi, India",
+    "subject": "Mobile app notifications delayed",
+    "description": "Push notifications on iOS arrive 10–15 minutes late. Android devices on the same account appear unaffected.",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-09-19T23:05:00",
+    "conversation": [
+      {
+        "id": "m-1039-1",
+        "sender": "Kabir Khan",
+        "role": "customer",
+        "createdAt": "2026-09-19T23:05:00",
+        "message": "Mentions in the mobile app show up far too late. I missed two customer replies yesterday."
+      }
+    ]
+  },
+  {
+    "id": "TCK-1038",
+    "customerName": "Neha Patel",
+    "email": "neha.patel@gmail.com",
+    "plan": "Business",
+    "location": "Ahmedabad, India",
+    "subject": "CSV import mapping question",
+    "description": "The customer wants to know how custom fields should be mapped when importing contacts from a CSV export of another tool.",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2026-09-18T15:35:00",
+    "conversation": [
+      {
+        "id": "m-1038-1",
+        "sender": "Neha Patel",
+        "role": "customer",
+        "createdAt": "2026-09-18T15:35:00",
+        "message": "Which columns should I use for company name and owner email during CSV import?"
+      },
+      {
+        "id": "m-1038-2",
+        "sender": "Support",
+        "role": "support",
+        "createdAt": "2026-09-18T16:02:00",
+        "message": "Map company to organization_name and owner email to owner_email. A sample file is attached in the help center."
+      }
+    ]
+  },
+  {
+    "id": "TCK-1037",
+    "customerName": "Sofia Mendes",
+    "email": "sofia.mendes@gmail.com",
+    "plan": "Enterprise",
+    "location": "Lisbon, Portugal",
+    "subject": "Resolved SLA report discrepancy",
+    "description": "The weekly SLA report showed two resolved tickets as breached even though they were closed within the agreed window.",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2026-09-17T18:20:00",
+    "conversation": [
+      {
+        "id": "m-1037-1",
+        "sender": "Sofia Mendes",
+        "role": "customer",
+        "createdAt": "2026-09-17T18:20:00",
+        "message": "The SLA export marks TCK-1011 and TCK-1014 as breached, but both were resolved on time."
+      },
+      {
+        "id": "m-1037-2",
+        "sender": "Support",
+        "role": "support",
+        "createdAt": "2026-09-17T19:10:00",
+        "message": "Timezone conversion in the report was off. We republished the report and the breach flags are cleared."
+      }
+    ]
+  }
+]

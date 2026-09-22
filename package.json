@@ -1,31 +1,27 @@
 {
   "name": "customer-support-dashboard",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
-  "description": "",
+  "description": "Customer Support Dashboard ",
   "license": "ISC",
   "author": "",
   "type": "module",
-  "main": "index.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "detect-libc": "^2.1.2",
-    "fdir": "^6.5.0",
-    "lightningcss": "^1.33.0",
-    "lightningcss-linux-x64-gnu": "^1.33.0",
-    "nanoid": "^3.3.19",
-    "picocolors": "^1.1.1",
-    "picomatch": "^4.0.7",
-    "postcss": "^8.5.28",
-    "rolldown": "^1.2.9",
-    "source-map-js": "^1.2.1",
-    "tinyglobby": "^0.2.17"
+    "@reduxjs/toolkit": "^2.9.0",
+    "lucide-react": "^0.544.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-redux": "^9.2.0"
   },
   "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@vitejs/plugin-react": "^5.0.4",
+    "tailwindcss": "^4.3.3",
     "vite": "^8.3.0"
   }
 }
